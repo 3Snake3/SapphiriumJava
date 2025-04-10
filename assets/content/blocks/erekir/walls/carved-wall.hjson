@@ -1,0 +1,10 @@
+requirements: [
+    carved-alloy/4
+    tungsten/2
+]
+armor: 34
+buildCostMultiplier: 8
+health: 550
+absorbLasers: true
+category: defense
+research: carbide-wall

@@ -1,0 +1,11 @@
+requirements: [
+    carved-alloy/18
+    tungsten/4
+]
+armor: 37
+buildCostMultiplier: 4
+health: 2200
+size: 2
+absorbLasers: true
+category: defense
+research: carved-wall
