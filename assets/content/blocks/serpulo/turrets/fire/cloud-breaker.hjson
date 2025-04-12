@@ -12,7 +12,6 @@ requirements: [
 health: 1200
 consumes: {
 power: 16
-liquid: oil/0.3
 }
 reload: 50
 inaccuracy: 9

@@ -1,0 +1,16 @@
+itemCapacity: 0
+unitCapModifier: 24
+destructible: false
+breakable: false
+rebuildable: false
+privileged: true
+canPickup: false
+alwaysReplace: false
+replaceable: false
+targetable: false
+unitType: none
+category: effect
+type: CoreBlock
+requirements: [
+copper/1
+]

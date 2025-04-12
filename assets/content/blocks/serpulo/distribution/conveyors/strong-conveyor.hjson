@@ -7,5 +7,5 @@ requirements: [
 ]
 envDisabled: 16
 category: distribution
-research: titanium-conveyor
+buildVisibility: sandboxOnly
 placeableLiquid: true

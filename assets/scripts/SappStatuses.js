@@ -111,7 +111,7 @@ const superShock = extend(StatusEffect, "super-shock", {
 			if(!unit.type.lowAltitude && unit.type.hitSize >= 20){
 			unit.type.lowAltitude = true;
 			}
-			}
+		}
 	},
 	onRemoved(unit){
 		if(unit.type.flying){

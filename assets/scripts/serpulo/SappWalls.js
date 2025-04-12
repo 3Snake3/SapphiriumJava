@@ -549,16 +549,7 @@ surgeStoneWall.buildType = () => extend(Wall.WallBuild, surgeStoneWall, {
     },
     getPowerProduction(){
     	return 0.8 * 1.0;
-     },
-    onDestroyed(){
-      this.super$onDestroyed();
-        /*surgeBullet.create(this, Team.get(99), this.x, this.y, this.rotation);*/
-        for(var i = 0; i < 6; i++){
-          lLightning.create(this, Team.get(99), this.x, this.y, (360 / 6) * i + Mathf.random(16));
-          }
-        surgeExplosion.at(this.x, this.y);
-        Sounds.shockBlast.at(this);
-      }
+     }
 });
 const armedSurgeStoneWall = extend(PowerTurret, "armed-surge-stone-wall", {
 setStats() {
@@ -583,16 +574,7 @@ armedSurgeStoneWall.buildType = () => extend(PowerTurret.PowerTurretBuild, armed
             }
         }
         return true;
-    },
-    onDestroyed(){
-      this.super$onDestroyed();
-      surgeBullet.create(this, Team.get(99), this.x, this.y, this.rotation);
-        for(var i = 0; i < 6; i++){
-          lLightning.create(this, Team.get(99), this.x, this.y, (360 / 6) * i + Mathf.random(16));
-          }
-        surgeExplosion.at(this.x, this.y);
-        Sounds.shockBlast.at(this);
-      }
+    }
 });
 
 var laserChance = new Stat("laserchance");

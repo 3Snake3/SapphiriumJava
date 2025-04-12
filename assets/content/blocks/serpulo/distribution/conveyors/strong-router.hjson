@@ -5,8 +5,7 @@ requirements: [
 ]
 envDisabled: 16
 category: distribution
-research: {
-    parent: router
-    objectives: [strong-conveyor]
+buildVisibility: sandboxOnly
+placeableLiquid: truetrong-conveyor]
 }
 placeableLiquid: true

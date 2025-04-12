@@ -10,4 +10,4 @@ requirements: [
     titanium/4
 ]
 category: power
-research: power-node-large
+buildVisibility: sandboxOnly

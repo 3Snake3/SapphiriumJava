@@ -103,6 +103,10 @@ drawLiquid: ledonite-liquid
 }
 {
 type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawLiquidTile
 drawLiquid: surge-mass
 }
 {

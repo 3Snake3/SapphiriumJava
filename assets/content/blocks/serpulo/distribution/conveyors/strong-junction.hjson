@@ -7,8 +7,7 @@ envDisabled: 16
 category: distribution
 speed: 26
 capacity: 8
-research: {
-    parent: junction
-    objectives: [strong-conveyor]
+buildVisibility: sandboxOnly
+placeableLiquid: true[strong-conveyor]
 }
 placeableLiquid: true

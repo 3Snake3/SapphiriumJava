@@ -311,3 +311,13 @@ weapons: [
         }
     }
 ]
+
+research: {
+parent: nihil
+objectives: [
+{
+type: SectorComplete
+preset: requiem
+}
+]
+}

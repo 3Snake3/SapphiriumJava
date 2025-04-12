@@ -1,7 +1,8 @@
 requirements: [
 thorium/600
 amethyst/300
-silicon/450
+silicon/230
+tungsten/230
 carved-alloy/200
 ]
 regionSuffix: -dark
