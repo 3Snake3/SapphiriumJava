@@ -28,7 +28,6 @@ import mindustry.type.ItemStack;
 import mindustry.type.Liquid;
 import mindustry.type.LiquidStack;
 import mindustry.ui.Bar;
-import mindustry.ui.ItemImage;
 import mindustry.world.Block;
 import mindustry.world.blocks.heat.*;
 import mindustry.world.blocks.heat.HeatConductor.*;
@@ -584,8 +583,7 @@ public class MultiCrafter extends Block {
         IOEntry entry = isInput ? recipe.input : recipe.output;
         int i = 0;
         for (ItemStack stack : entry.items) {
-            Cell<ItemImage> iconCell = mat.add(new ItemImage(stack.item.uiIcon, stack.amount))
-                .pad(2f);
+            Cell iconCell = mat.add(StatValues.stack(stack.item, stack.amount)).pad(2f);
             if (showNameTooltip)
                 iconCell.tooltip(stack.item.localizedName);
             if (isInput) iconCell.left();
